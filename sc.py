@@ -104,6 +104,8 @@ def Index_Search(inputlist, heads, exact_input, sequences, arg_3):
     Parameters:
     -----------
     inputlist : Python list of input sequences
+    heads : Python List of Protein names extracted from the Fasta file
+    exact_input : Python list returned from the function Data Clean
     sequences : Python list of Protein sequences
     arg_3 : Name of the output file
 
